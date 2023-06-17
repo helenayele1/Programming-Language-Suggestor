@@ -1,4 +1,23 @@
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+p { 
+    margin-top: 50px;
+
+
+}
+
 form {
+    margin-bottom: 50px; /* does nothing */
     display: flex;
     flex-direction: column;
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form horizontally */
   }
+ 
+label {
+    margin-bottom: 100px;
+  }
+

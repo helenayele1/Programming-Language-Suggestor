@@ -1,23 +1,43 @@
 h1 {
     text-align: center;
-    color: pink;
+    color:#734C7B;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
 }
-
-p { 
+  
+  
+  p {
     margin-top: 50px;
+    text-decoration: bold;
 
-
-}
-
-form {
-    margin-bottom: 50px; /* does nothing */
+  }
+  
+  form {
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    max-width: 300px; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the form horizontally */
-  }
- 
-label {
-    margin-bottom: 100px;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
+  label {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+  }
+
+  .box {
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+
+  }
+
+  button[type="submit"] {
+    margin-top: 50px;
+    background-color: #734C7B;
+    
+  }
+
+ 

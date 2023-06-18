@@ -1,13 +1,19 @@
 h1 {
+    margin-top: 50px;
     text-align: center;
-    color:#734C7B;
+    color: black;
     text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
 }
   
-  
   p {
     margin-top: 50px;
-    text-decoration: bold;
+    text-style: bold;
+
+  }
+
+  body {
+  
+    background-color:#fdf2fd
 
   }
   
@@ -30,7 +36,12 @@ h1 {
   .box {
     background-color: #000;
     color: #fff;
+    width: 400px;
     opacity: .5;
+    border: 2px;
+    border-radius: 10px;
+
+
 
   }
 

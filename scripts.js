@@ -7,11 +7,11 @@ document.querySelector("form").onsubmit = function (event) {
 
 }
 
-document.getElementbyID ('person-identification').value;
-document.getElementbyID ('gamer').value;
-document.getElementbyID ('skydiver').value;
-document.getElementbyID ('sportgame').value;
-document.getElementbyID ('coffee-type').value;
+document.getElementbyId ('person-identification').checked;
+document.getElementbyId ('gamer').value;
+document.getElementbyId ('skydiver').value;
+document.getElementbyId ('sportgame').value;
+document.getElementbyId ('coffee-type').value;
 
 if (person-identification === yes )
 

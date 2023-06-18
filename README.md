@@ -1,9 +1,9 @@
 # Programming-Language-Suggestor
 
-#### By _**Helen Ayele**_
+#### By **Helen Ayele**
 
-#### _A web application that suggests a coding language based on user preferences.
-_
+#### A web application that suggests a coding language based on user preferences.
+
 
 ## Technologies Used
 

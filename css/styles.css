@@ -24,6 +24,8 @@ h1, h2 {
   label {
     display: block;
     margin-bottom: 20px;
+    border: 2px;
+    font-size: 20px
   }
   
   .box {
@@ -44,8 +46,9 @@ h1, h2 {
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
+    font-size: 20px
   }
   
   #result {

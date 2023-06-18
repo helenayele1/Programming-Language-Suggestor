@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Programming Language Suggestor!</title>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="scripts.js"></script>
+
  </head>
 
 <body>
@@ -14,45 +13,45 @@
 
   <div class="box">
   <form>
-    <label for="question 1">Select box if you are a beginner level programmer:</label>
-    <input type="checkbox" id="personIdentification" required>
+    <label for="beginnerLevel">Select box if you are a beginner level programmer:</label>
+    <input type="checkbox" id="beginnerLevel">
 
-    <label for="question 2">Are you a gamer?</label>
+    <label for="gamer">Are you a gamer?</label>
 
     <select id="gamer" required>
      <option value="Select">Select</option>
-      <option value="yes">Yes</option>
+      <option value="yes">yes</option>
       <option value="no">No</option>
       <option value ="sometimes"> Sometimes</option>
     </select>
 
 
-<label for ="question 3"> Have you ever went skydiving?</label>
+<label for ="skyDiver"> Have you ever went skydiving?</label>
     <select id="skyDiver" required>
         <option value="Select">Select</option>
         <option value="yes">Yes</option>
         <option value="never">Never</option>
     </select>
 
-    <label for="question 4">Would you prefer to watch soccer or basketball games?</label>
+    <label for="sportGame"> Would you prefer to watch soccer or basketball games?</label>
 
     <select id="sportGame" required>
         <option value="Select">Select</option>
-        <option value="Soccer">Soccer</option>
-        <option value="Basketball">Basketball</option>
+        <option value="soccer">Soccer</option>
+        <option value="basketball">Basketball</option>
     </select>
 
-    <label for = "question 5"> How much cream do you like in your coffee?</label>
+    <label for = "coffeeType"> How much cream do you like in your coffee?</label>
 
     <select id="coffeeType" required>
         <option value="Select">Select</option>
-        <option value="None"> None, I like my coffee black.</option>
+        <option value="none"> None, I like my coffee black.</option>
         <option value="1-2">1-2 scoops.</option>
-        <option value="Over 2">More than 2 scoops. I like coffee with my milk.</option>
+        <option value="over 2">More than 2 scoops. I like coffee with my milk.</option>
 
     </select>
 
-    <button type="submit">Submit</button>
+    <button type="submit">submit</button>
   
 </form>
 
@@ -61,6 +60,8 @@
 <div id="result">
  <h2> Results: </h2>
 </div>
+
+<script src="scripts.js"></script>
  
 </body>
 </html>
